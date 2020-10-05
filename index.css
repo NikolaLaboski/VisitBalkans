@@ -1,0 +1,141 @@
+
+
+.home{
+    background-image: url("ohrid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0.2px);
+  -webkit-filter: blur(0.2px);
+
+  /* Full height */
+  height: 100%;
+}
+
+#name {
+    animation: move 3s ;
+  }
+  
+  @keyframes move {
+    from { margin-top: 20px; }
+    to { margin-top: 310px; }
+  }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Bungee Inline';
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+.blog::before{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    top:-50px;
+    left: 0;
+    transform: skewY(10deg);
+}
+
+.blog::after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    top:-50px;
+    right: 0;
+    transform: skewY(-10deg);
+}
+
+  .countries{
+      background-color: whitesmoke;
+      color: crimson;
+  } 
+
+#ab{
+    border: 5px solid #555;
+}
+  .blog{
+      background-image: url("hrvatska1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: blur(0.5px);
+      -webkit-filter: blur(0.5px);
+
+  }
+
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .places{
+    background-color: whitesmoke;
+    color: crimson;
+}
+
+.footer .fut a .fa {
+    font-size: 50px;
+  }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Visit Balkans</title>
+        <link rel="stylesheet" href="index.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid text-center home min-vh-100 d-flex flex-column">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#" class="logo text-center">
+                        <h1 style="font-size: x-large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Visit Balkans</h1>
+                      </a>
+                </div>
+                
+                <div class="col-sm-12">
+                    <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <div class="overlay-content">
+                                <a href="#">About</a>
+                                <a href="#">Countries</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Contact</a>
+                            </div>
+                    </div>
+                        <span style="font-size:40px;cursor:pointer; color: crimson;" onclick="openNav()">&#9776; </span>
+                </div> 
+                  <script>
+                  function openNav() {
+                    document.getElementById("myNav").style.width = "100%";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                  }
+                  </script>
+                <div class="col-sm-12 content">
+                    <h1 id="name" style="font-family: 'Bungee Inline'; color: crimson; font-weight: 700;">Your tourist guide <br> &#x1F603;</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center countries">
+            <div class="row">
+                <div class="col-sm-12"><br>
+                    <h1>Pick a country</h1>
+                <br>
+                <br>
+                </div>
+                <div class="col-sm-2">
+                    <p>Slovenia</p>
+                    <img src="sloveniaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Macedonia</p>
+                    <img src="macedoniaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Albania</p>
+                    <img src="albaniaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Bulgaria</p>
+                    <img src="bulgariaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Serbia</p>
+                    <img src="serbiaf.png" alt="" style="width: 100%;height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Montenegro</p>
+                    <img src="montenegrof.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p>BIH</p>
+                    <img src="bosniaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Croatia</p>
+                    <img src="croatiaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Greece</p>
+                    <img src="greecef.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+                <div class="col-sm-2">
+                    <p>Romania</p>
+                    <img src="romaniaf.png" alt="" style="width: 100%; height: 60%; border-radius: 30%;" id="ab">
+                </div>
+            </div>
+        </div>
+
+       <div class="container-fluid text-center blog min-vh-100 d-flex flex-column">
+            <div class="col-sm-12 bg-text">
+                <h1>Read our blog</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Integer eros nisi, condimentum eget tempor eu, ultricies ut lorem. Nam quis quam eros. </p>
+                    <button>READ MORE</button>
+            </div>
+
+       </div> 
+       <div class="container-fluid text-center places">
+           <div class="row">
+               <div class="col-sm-12">
+                   <br>
+                   <h1>Most popular places</h1>
+               </div>
+               <div class="col-sm-4">
+                   <img src="greece.jpg" alt="" style="width: 100%; height: 40%;">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eros nisi, condimentum eget tempor eu, ultricies ut lorem. Nam quis quam eros.
+                        </p>
+                   <button>SEE MORE</button>
+               </div>
+               <div class="col-sm-4"><img src="mostar.jpg" alt="" style="width: 100%; height: 40%;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eros nisi, condimentum eget tempor eu, ultricies ut lorem. Nam quis quam eros.
+                     </p>
+                <button>SEE MORE</button></div>
+               <div class="col-sm-4"><img src="nesebar.jpg" alt="" style="width: 100%; height: 40%;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eros nisi, condimentum eget tempor eu, ultricies ut lorem. Nam quis quam eros.
+                      </p>
+                <button>SEE MORE</button></div>
+           </div>
+       </div>
+
+       <div class="container-fluid footer text-center" id="footer">
+
+        <div class="fut col-sm-12">
+            <br>
+            <br>
+            <p>Thank you for visiting my website, feel free to contact me about anything</p>
+          <a href="https://www.linkedin.com/in/nikola-laboski-8659691b6/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://twitter.com/LaboskiNikola"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/laboski.93/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p><a href="mailto:nikola.laboski@outlook.com">Email: nikola.laboski@outlook.com</a></p>
+        <h4 class="copyrightText">Copyright @2020 <a href="">Nikola Laboski</a>. All rights reserved.</h4>
+      </section>
+        
+
+
+
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    </body>
+
+</html>
